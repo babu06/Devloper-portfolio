@@ -1,8 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 48px;
 }
 .ong{
     color: aqua;
@@ -18,9 +19,17 @@ section{
 
 }
 section{
-    padding: 5%;
+    padding: 3%;
 }
 .now{
     text-decoration: none;
-    background-color: orange; border: 
+    background-color: orange; 
+    padding: 10px 40px ;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
